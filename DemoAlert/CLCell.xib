@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CLCell" customModule="DemoAlert" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="207"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="207"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ut-d2-4MJ">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="200"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coca.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FtX-Ev-wAx">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="200"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2k-uA-oP8">
+                                <rect key="frame" x="0.0" y="170" width="170" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chz-6t-kSy">
+                                        <rect key="frame" x="10" y="5.5" width="150" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="17"/>
+                                        <color key="textColor" red="0.9318112731" green="0.93194180729999998" blue="0.93177002669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.61785637842465768" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Chz-6t-kSy" secondAttribute="trailing" constant="10" id="H4g-MN-8ch"/>
+                                    <constraint firstItem="Chz-6t-kSy" firstAttribute="leading" secondItem="I2k-uA-oP8" secondAttribute="leading" constant="10" id="f6l-ZT-Gye"/>
+                                    <constraint firstItem="Chz-6t-kSy" firstAttribute="centerY" secondItem="I2k-uA-oP8" secondAttribute="centerY" id="jTu-zv-N1F"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="I2k-uA-oP8" secondAttribute="trailing" id="935-K1-qk2"/>
+                            <constraint firstAttribute="width" constant="170" id="EoG-KX-azX"/>
+                            <constraint firstAttribute="height" constant="200" id="GeH-wI-Xe6"/>
+                            <constraint firstAttribute="bottom" secondItem="I2k-uA-oP8" secondAttribute="bottom" id="Nvw-4b-5Dm"/>
+                            <constraint firstAttribute="bottom" secondItem="FtX-Ev-wAx" secondAttribute="bottom" id="aDd-Kh-zGr"/>
+                            <constraint firstItem="I2k-uA-oP8" firstAttribute="leading" secondItem="5Ut-d2-4MJ" secondAttribute="leading" id="k6s-a7-M6E"/>
+                            <constraint firstAttribute="trailing" secondItem="FtX-Ev-wAx" secondAttribute="trailing" id="kw5-OU-gLG"/>
+                            <constraint firstItem="FtX-Ev-wAx" firstAttribute="top" secondItem="5Ut-d2-4MJ" secondAttribute="top" id="tNU-8L-H9c"/>
+                            <constraint firstItem="I2k-uA-oP8" firstAttribute="height" secondItem="FtX-Ev-wAx" secondAttribute="height" multiplier="0.15" id="v92-6C-f3l"/>
+                            <constraint firstItem="FtX-Ev-wAx" firstAttribute="leading" secondItem="5Ut-d2-4MJ" secondAttribute="leading" id="zEd-qT-b3d"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5Ut-d2-4MJ" secondAttribute="trailing" id="35X-ox-2Z0"/>
+                <constraint firstItem="5Ut-d2-4MJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="X92-Ez-8CK"/>
+                <constraint firstAttribute="bottom" secondItem="5Ut-d2-4MJ" secondAttribute="bottom" priority="250" id="YUe-IN-waN"/>
+                <constraint firstItem="5Ut-d2-4MJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="x7a-uq-1bZ"/>
+            </constraints>
+            <size key="customSize" width="170" height="207"/>
+            <connections>
+                <outlet property="icons" destination="FtX-Ev-wAx" id="ALN-h8-vRg"/>
+                <outlet property="lblName" destination="Chz-6t-kSy" id="91S-nY-e6J"/>
+                <outlet property="viewCell" destination="5Ut-d2-4MJ" id="D8D-G7-Ptt"/>
+                <outlet property="viewLbl" destination="I2k-uA-oP8" id="o0U-zb-V6Z"/>
+            </connections>
+            <point key="canvasLocation" x="7.2463768115942031" y="59.263392857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="coca.jpg" width="1024" height="768"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

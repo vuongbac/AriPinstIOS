@@ -15,6 +15,11 @@
 		989ED520255CE7890099A82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989ED51E255CE7890099A82F /* LaunchScreen.storyboard */; };
 		989ED52B255CE7890099A82F /* DemoAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989ED52A255CE7890099A82F /* DemoAlertTests.swift */; };
 		989ED536255CE7890099A82F /* DemoAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989ED535255CE7890099A82F /* DemoAlertUITests.swift */; };
+		989ED547255CE93F0099A82F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989ED546255CE93F0099A82F /* ViewController2.swift */; };
+		989ED54F255CEE760099A82F /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989ED54E255CEE760099A82F /* ViewController3.swift */; };
+		989ED55F255CF1210099A82F /* CLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989ED55D255CF1210099A82F /* CLCell.swift */; };
+		989ED560255CF1210099A82F /* CLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989ED55E255CF1210099A82F /* CLCell.xib */; };
+		989ED565255CF26A0099A82F /* coca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 989ED564255CF26A0099A82F /* coca.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		989ED531255CE7890099A82F /* DemoAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989ED535255CE7890099A82F /* DemoAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAlertUITests.swift; sourceTree = "<group>"; };
 		989ED537255CE7890099A82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989ED546255CE93F0099A82F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		989ED54E255CEE760099A82F /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		989ED55D255CF1210099A82F /* CLCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLCell.swift; sourceTree = "<group>"; };
+		989ED55E255CF1210099A82F /* CLCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLCell.xib; sourceTree = "<group>"; };
+		989ED564255CF26A0099A82F /* coca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coca.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				989ED51C255CE7890099A82F /* Assets.xcassets */,
 				989ED51E255CE7890099A82F /* LaunchScreen.storyboard */,
 				989ED521255CE7890099A82F /* Info.plist */,
+				989ED546255CE93F0099A82F /* ViewController2.swift */,
+				989ED54E255CEE760099A82F /* ViewController3.swift */,
+				989ED55D255CF1210099A82F /* CLCell.swift */,
+				989ED55E255CF1210099A82F /* CLCell.xib */,
+				989ED564255CF26A0099A82F /* coca.jpg */,
 			);
 			path = DemoAlert;
 			sourceTree = "<group>";
@@ -232,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				989ED520255CE7890099A82F /* LaunchScreen.storyboard in Resources */,
+				989ED565255CF26A0099A82F /* coca.jpg in Resources */,
 				989ED51D255CE7890099A82F /* Assets.xcassets in Resources */,
+				989ED560255CF1210099A82F /* CLCell.xib in Resources */,
 				989ED51B255CE7860099A82F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989ED55F255CF1210099A82F /* CLCell.swift in Sources */,
+				989ED54F255CEE760099A82F /* ViewController3.swift in Sources */,
 				989ED518255CE7860099A82F /* ViewController.swift in Sources */,
+				989ED547255CE93F0099A82F /* ViewController2.swift in Sources */,
 				989ED514255CE7860099A82F /* AppDelegate.swift in Sources */,
 				989ED516255CE7860099A82F /* SceneDelegate.swift in Sources */,
 			);
